@@ -1,20 +1,42 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Le Dîner en Blanc - Belgique 🇧🇪
 
-# Run and deploy your AI Studio app
+Une application web moderne, élégante et responsive pour l'organisation de l'événement **Le Dîner en Blanc** en Belgique.
 
-This contains everything you need to run your app locally.
+## ✨ Fonctionnalités
 
-View your app in AI Studio: https://ai.studio/apps/26b0795b-8728-46c5-bc83-0a0c3d483887
+- 🌍 **Multi-langues** : Support complet du Français, Anglais et Espagnol (via i18next).
+- 📱 **Totalement Responsive** : Optimisé pour tous les écrans (Mobile, Tablette, Desktop).
+- 🍔 **Menu Burger** : Navigation fluide sur mobile avec animations spring.
+- 🎨 **Design Raffiné** : Respect de l'identité visuelle historique (Polices avec empattement, minimalisme blanc).
+- 📍 **Sélecteur de Pays** : Configuration spécifique pour la Belgique.
+- ⚡ **Performance** : Construit avec React 18, Vite et Tailwind CSS.
 
-## Run Locally
+## 🛠️ Stack Technique
 
-**Prerequisites:**  Node.js
+- **Framework** : React 18
+- **Build Tool** : Vite
+- **Styling** : Tailwind CSS
+- **Animations** : Framer Motion
+- **Internationalisation** : i18next
+- **Icônes** : Lucide React
 
+## 🚀 Installation Locale
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Clonez le dépôt.
+2. Installez les dépendances :
+   ```bash
+   npm install
+   ```
+3. Lancez le serveur de développement :
+   ```bash
+   npm run dev
+   ```
+
+## 📦 Déploiement sur Vercel
+
+Pour que le nom "Google AI Studio" n'apparaisse pas dans l'URL :
+1. Connectez votre compte GitHub à Vercel.
+2. Importez ce projet.
+3. Dans **Project Name**, choisissez le nom que vous souhaitez 
+4. Votre URL sera `diner-en-blanc-belgique.vercel.app`.
+5. Pour une URL sans `.vercel.app`, vous devrez acheter un nom de domaine (ex: `.be` ou `.com`) et le lier dans les paramètres "Domains" de Vercel.
